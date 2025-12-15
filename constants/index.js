@@ -22,25 +22,25 @@ const cocktailLists = [
         name: "Chapel Hill Shiraz",
         country: "AU",
         detail: "Battle",
-        price: "$10",
+        price: "9.8 DT",
     },
     {
         name: "Caten Malbee",
         country: "AU",
         detail: "Battle",
-        price: "$49",
+        price: "14.8 DT",
     },
     {
         name: "Rhino Pale Ale",
         country: "CA",
         detail: "750 ml",
-        price: "$20",
+        price: "12 DT",
     },
     {
         name: "Irish Guinness",
         country: "IE",
         detail: "600 ml",
-        price: "$29",
+        price: "13.8 DT",
     },
 ];
 
@@ -49,25 +49,25 @@ const mockTailLists = [
         name: "Tropical Bloom",
         country: "US",
         detail: "Battle",
-        price: "$10",
+        price: "12 DT",
     },
     {
         name: "Passionfruit Mint",
         country: "US",
         detail: "Battle",
-        price: "$49",
+        price: "19.9 DT",
     },
     {
         name: "Citrus Glow",
         country: "CA",
         detail: "750 ml",
-        price: "$20",
+        price: "15.9 DT",
     },
     {
         name: "Lavender Fizz",
         country: "IE",
         detail: "600 ml",
-        price: "$29",
+        price: "14.4 DT",
     },
 ];
 
@@ -102,16 +102,16 @@ const goodLists = [
 
 const storeInfo = {
     heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+    address: "Avenue Taieb Mhiri, El Medina, Monastir, Tunisie ",
+
     contact: {
-        phone: "(555) 987-6543",
-        email: "hello@jsmcocktail.com",
+        phone: "(216) 22 528 882",
+        email: "ramzi.hajmassoud.10@gmail.com",
     },
 };
 
 const openingHours = [
-    { day: "Mon–Thu", time: "11:00am – 12am" },
-    { day: "Fri", time: "11:00am – 2am" },
+    { day: "Mon–Fri", time: "09:00am – 11pm" },
     { day: "Sat", time: "9:00am – 2am" },
     { day: "Sun", time: "9:00am – 1am" },
 ];
@@ -134,7 +134,7 @@ const socials = [
     },
 ];
 
-const sliderLists = [
+const allCocktails = [
     {
         id: 1,
         name: "Classic Mojito",
@@ -179,5 +179,5 @@ export {
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
+    allCocktails,
 };
